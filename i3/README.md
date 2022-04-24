@@ -1,1 +1,1 @@
-Copy in .config/i3/config
+Copy in ~/.config/i3/config

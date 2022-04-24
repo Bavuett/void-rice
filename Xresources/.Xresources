@@ -1,0 +1,17 @@
+#define c01 #bf4925
+#define c02 #070d0a
+#define c03 #314e56 
+
+*bg:	c01
+*txt: 	c02
+
+!! Colorscheme
+
+! special
+
+*.foreground: c02
+*.background: c01 
+*.cursorColor: c02
+
+!!URxvt Appearance
+URxvt.scrollBar: false

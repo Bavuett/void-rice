@@ -182,7 +182,8 @@ bindsym $mod+r mode "resize"
 # Costumizations
 
 exec_always --no-startup-id xrdb ~/.Xresources
-exec_always --no-startup.id ~/.config/polybar/launch.sh
+exec_always --no-startup-id pkill polybar
+exec_always --no-startup-id ~/.config/polybar/launch.sh
 exec_always --no-startup-id feh --bg-fill '/home/loren/void-rice/wallpaper.jpg'
 
 set_from_resource $bg i3wm.bg

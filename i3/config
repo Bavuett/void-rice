@@ -9,6 +9,28 @@
 #
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
+
+# Costumizations
+
+exec_always --no-startup-id xrdb ~/.Xresources
+exec_always --no-startup-id pkill polybar
+exec_always --no-startup-id ~/.config/polybar/launch.sh
+exec_always --no-startup-id feh --bg-fill '/home/loren/void-rice/wallpaper.jpg'
+
+set $bg #bf4925
+set $txt #bf4925
+set $unbg #1f332d
+
+for_window [class=".*"] border pixel 5
+
+gaps outer 1
+gaps inner 10
+
+# class			border	backgr	text	indicat	child_b	
+client.focused		$bg	$bg	$txt	$bg	$bg
+client.unfocused	$unbg   $unbg   $txt    $unbg   $unbg	
+client.focused_inactive $unbg	$unbg	$txt	$unbg	$unbg
+
 set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
@@ -178,24 +200,3 @@ mode "resize" {
 }
 
 bindsym $mod+r mode "resize"
-
-# Costumizations
-
-exec_always --no-startup-id xrdb ~/.Xresources
-exec_always --no-startup-id pkill polybar
-exec_always --no-startup-id ~/.config/polybar/launch.sh
-exec_always --no-startup-id feh --bg-fill '/home/loren/void-rice/wallpaper.jpg'
-
-set_from_resource $bg i3wm.bg
-set_from_resource $txt i3wm.txt
-set_from_resource $unbg i3wm.unbg
-
-for_window [class=".*"] border pixel 5
-
-gaps outer 1
-gaps inner 10
-
-# class			border	backgr	text	indicat	child_b	
-client.focused		$bg	$bg	$txt	$bg	$bg
-client.unfocused	$unbg   $unbg   $txt    $unbg   $unbg	
-client.focused_inactive $unbg	$unbg	$txt	$unbg	$unbg

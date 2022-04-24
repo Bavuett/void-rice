@@ -1,17 +1,27 @@
 #define c01 #bf4925
 #define c02 #070d0a
-#define c03 #314e56 
+#define c03 #314e56
+#define c04 #1f332d 
+#define c05 #5d3120
+#define c06 #354e3b
+#define c07 #4f7a93
+#define c08 #708679
+#define c09 #b69fa0
 
 *bg:	c01
-*txt: 	c02
+*unbg:	c04
+*txt: 	c01
 
 !! Colorscheme
 
 ! special
 
-*.foreground: c02
-*.background: c01 
-*.cursorColor: c02
+*.foreground: c01
+*.background: c02 
+*.cursorColor: c01
 
 !!URxvt Appearance
 URxvt.scrollBar: false
+URxvt.font: xft:Inconsolata:size=16
+URxvt.internalBorder: 15
+

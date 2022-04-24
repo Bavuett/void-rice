@@ -182,7 +182,7 @@ bindsym $mod+r mode "resize"
 # Costumizations
 
 exec_always --no-startup-id xrdb ~/.Xresources
-exec_always --no-startup-id ~/.config/polybar/launch.sh &
+exec_always --no-startup.id ~/.config/polybar/launch.sh
 exec_always --no-startup-id feh --bg-fill '/home/loren/void-rice/wallpaper.jpg'
 
 set_from_resource $bg i3wm.bg
@@ -197,3 +197,4 @@ gaps inner 10
 # class			border	backgr	text	indicat	child_b	
 client.focused		$bg	$bg	$txt	$bg	$bg
 client.unfocused	$unbg   $unbg   $txt    $unbg   $unbg	
+client.focused_inactive $unbg	$unbg	$txt	$unbg	$unbg

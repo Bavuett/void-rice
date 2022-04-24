@@ -12,6 +12,7 @@
 
 # Costumizations
 
+exec_always --no-startup-id compton
 exec_always --no-startup-id xrdb ~/.Xresources
 exec_always --no-startup-id pkill polybar
 exec_always --no-startup-id ~/.config/polybar/launch.sh

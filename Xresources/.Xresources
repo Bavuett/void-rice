@@ -20,8 +20,11 @@
 *.background: c02 
 *.cursorColor: c01
 
-!!URxvt Appearance
+!!URxvt Appearance and functionality
 URxvt.scrollBar: false
-URxvt.font: xft:Inconsolata:size=16
-URxvt.internalBorder: 15
-
+URxvt.font: xft:Inconsolata:size=14
+URxvt.internalBorder: 12
+URxvt.keysym.Shift-Control-V: eval:paste_clipboard
+URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
+URxvt.iso14755: false
+URxvt.iso14755_52: false

@@ -39,13 +39,13 @@
 
 ! black
 
-*.color0: c05
-*.color8: c05a
+*.color0: c01
+*.color8: c01a
 
 ! red
 
-*.color1: c01
-*.color9: c01a
+*.color1: c05
+*.color9: c05a
 
 ! green
 

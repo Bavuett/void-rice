@@ -1,6 +1,6 @@
 # Void Rice - i3, URxvt, Polybar, Rofi, feh
 
-Dotfiles for a Linux Rice. Made using i3, URxvt, Polybar and Rofi.
+Dotfiles for a Linux Rice. Made using i3, URxvt, Polybar, Rofi and feh.
 
 ---
 

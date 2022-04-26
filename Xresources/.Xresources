@@ -20,6 +20,46 @@
 *.background: c02 
 *.cursorColor: c01
 
+! black
+
+*.color0: c09
+*.color8: c09
+
+! red
+
+*.color1: c03
+*.color9: c03 
+
+! green
+
+*.color2: c06
+*.color10: c06
+
+! yellow
+
+*.color3: c08
+*.color11: c08
+
+! blue
+
+*.color4: c07
+*.color12: c07
+
+! magenta
+
+*.color5: c01
+*.color13: c01
+
+! cyan
+
+*.color6: c07
+*.color14: c07
+
+! white
+
+*.color7: c09
+*.color15: c09
+ 
 !!URxvt Appearance and functionality
 URxvt.scrollBar: false
 URxvt.font: xft:Inconsolata:size=14

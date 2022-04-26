@@ -18,7 +18,9 @@ RICE_DIR=$(pwd)
 
 echo "Home Directory: $HOME_DIR"
 echo
+echo "The script needs to know the location of the void-rice repository."
 echo "The default location for the Void-Rice repository is $RICE_DIR"
+
 read -p "Is this correct? (y/n) " CHOICE
 echo
 
